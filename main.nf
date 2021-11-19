@@ -28,7 +28,7 @@ def helpMessage() {
 }
 
 // Show help message if the user specifies the --help flag at runtime, or omits the --manifest
-if (params.help) || params.manifest == null || params.db_midas == null {
+if (params.help) || params.manifest == null || params.db_midas == null) {
     // Invoke the function above which prints the help message
     helpMessage()
     // Exit out and do not run anything else
