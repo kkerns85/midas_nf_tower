@@ -113,7 +113,7 @@ if (params.single){
 }
 
 process midas {
-    container "quay.io/fhcrc-microbiome/midas:v1.3.2--6"
+    container "quay.io/fhcrc-microbiome/midas:latest"
     label "mem_veryhigh"
     publishDir "${params.output_folder}/${specimen}"
 
